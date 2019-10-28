@@ -12,7 +12,7 @@ body{
 .Form{
     position:relative;
     z-index: 1;
-    background:#ffffff;
+    background:#f8c67a;
     max-width:360px;
     margin:0 auto 100px;
     padding:45px;
@@ -21,7 +21,7 @@ body{
 .Form input{
 font-family: "Roboto", sans-serif;
 outline :l ;
-background : #eec06b;
+background : #f3efe7;
 width:100%;
 border:0;
 margin: 0 0 15px;
@@ -41,4 +41,19 @@ font-size : 14px;
     color : #FFFFFF;
     font-size: 14;
     cursor: pointer;
+}
+.Form button:hover , .Form button:active{
+    background:#43A047;
+} 
+.Form .message{
+    margin:15px 0 0 ;
+    color:aliceblue;
+    font-size:12px;
+}
+.Form .message{
+    color:rgb(97, 96, 93);
+    text-decoration: none;
+}
+.Form .register-form{
+    display:none;
 }
